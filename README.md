@@ -4,9 +4,12 @@
 # Build
 
 ```
-source {ros2_ws}/install/setup.bash 
 cd {ros2_ws}
-colcon build
+mkdir build
+cd build 
+cmake ..
+make
+. install/setup.bash
 ```
 
 # Publisher and Subscriber
