@@ -12,7 +12,7 @@ colcon build --packages-select cpp_srvcli
 
 # Publisher and Subscriber
 
-# Run
+# Run the yaml file
 ```
 os2 launch src/cpp_srvcli/launch/my_package_launch.yaml 
 ```
