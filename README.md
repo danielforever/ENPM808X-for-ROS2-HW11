@@ -5,19 +5,16 @@
 
 ```
 cd {ros2_ws}
-mkdir build
-cd build 
-cmake ..
-make
-. install/setup.bash
+rosdep install -i --from-path src --rosdistro humble –y 
+colcon build --packages-select cpp_srvcli  
+. install/setup.bash 
 ```
 
 # Publisher and Subscriber
 
 # Run
 ```
-ros2 run beginner_tutorials talker
-ros2 run beginner_tutorials listener
+os2 launch src/cpp_srvcli/launch/my_package_launch.yaml 
 ```
 # Dependencies
 ###### ROS2
