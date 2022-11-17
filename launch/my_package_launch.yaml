@@ -1,0 +1,26 @@
+launch:
+
+- arg:
+    name: "freq1"
+    default: "1"
+
+- arg:
+    name: "freq2"
+    default: "2"
+
+- node:
+    pkg: "cpp_srvcli"
+    exec: "server"
+
+- node:
+    pkg: "cpp_srvcli"
+    exec: "client"
+    param:
+    -
+     name: "freq1"
+     value: "$(var freq1)"
+    param:
+    -
+     name: "freq2"
+     value: "$(var freq2)"
+
