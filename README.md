@@ -5,8 +5,11 @@
 
 ```
 cd {ros2_ws}
+
 rosdep install -i --from-path src --rosdistro humble –y 
+
 colcon build --packages-select cpp_srvcli  
+
 . install/setup.bash 
 ```
 
