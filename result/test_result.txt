@@ -1,0 +1,19 @@
+[INFO] [launch]: All log files can be found below /home/robotic/.ros/log/2022-12-05-20-42-28-342739-ubuntu-142666
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [my_package_test-1]: process started with pid [142670]
+[my_package_test-1] [0;32m[==========] [mRunning 2 tests from 2 test suites.
+[my_package_test-1] [0;32m[----------] [mGlobal test environment set-up.
+[my_package_test-1] [0;32m[----------] [m1 test from DummyTests
+[my_package_test-1] [0;32m[ RUN      ] [mDummyTests.dummy1
+[my_package_test-1] [0;32m[       OK ] [mDummyTests.dummy1 (0 ms)
+[my_package_test-1] [0;32m[----------] [m1 test from DummyTests (0 ms total)
+[my_package_test-1] 
+[my_package_test-1] [0;32m[----------] [m1 test from TestPub
+[my_package_test-1] [0;32m[ RUN      ] [mTestPub.testTF
+[my_package_test-1] [0;32m[       OK ] [mTestPub.testTF (3042 ms)
+[my_package_test-1] [0;32m[----------] [m1 test from TestPub (3042 ms total)
+[my_package_test-1] 
+[my_package_test-1] [0;32m[----------] [mGlobal test environment tear-down
+[my_package_test-1] [0;32m[==========] [m2 tests from 2 test suites ran. (3042 ms total)
+[my_package_test-1] [0;32m[  PASSED  ] [m2 tests.
+[INFO] [my_package_test-1]: process has finished cleanly [pid 142670]
